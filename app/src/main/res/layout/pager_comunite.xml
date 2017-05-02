@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#FFFFF0">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/pager_comunite_l1"
+            style="@style/pager_comunite_style"
+            >
+            <ImageView
+                style="@style/pager_comunite_style.iv"
+                android:id="@+id/c_activity_iv1"
+                android:src="@drawable/comunite_activity"
+                />
+            <TextView
+                android:padding="2sp"
+                android:id="@+id/c_activity_tv1"
+                android:text="社区活动"
+                style="@style/pager_comunite_style.tv" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/pager_comunite_l2"
+            style="@style/pager_comunite_style"
+            >
+            <ImageView
+                android:id="@+id/c_activity_iv2"
+                android:src="@drawable/comunite_play"
+                style="@style/pager_comunite_style.iv" />
+            <TextView
+
+                android:id="@+id/c_activity_tv2"
+                android:text="发起活动"
+                style="@style/pager_comunite_style.tv" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/pager_comunite_l3"
+            style="@style/pager_comunite_style"
+            >
+            <ImageView
+                android:id="@+id/c_activity_iv3"
+                android:src="@drawable/comunite_talk"
+                style="@style/pager_comunite_style.iv"/>
+            <TextView
+                android:id="@+id/c_activity_tv3"
+                android:text="社区交流"
+                style="@style/pager_comunite_style.tv" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/pager_comunite_l4"
+            style="@style/pager_comunite_style"
+            >
+            <ImageView
+                android:id="@+id/c_activity_iv4"
+                android:src="@drawable/comunite_fighting"
+                style="@style/pager_comunite_style.iv" />
+            <TextView
+                android:id="@+id/c_activity_tv4"
+                android:text="社区擂台"
+                style="@style/pager_comunite_style.tv" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

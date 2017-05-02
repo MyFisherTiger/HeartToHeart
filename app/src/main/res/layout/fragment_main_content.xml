@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.me.hearttoheart.view.HorizontalScrollViewPager
+        android:id="@+id/ll_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.me.hearttoheart.view.HorizontalScrollViewPager>
+
+    <RadioGroup
+        android:id="@+id/bottom_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_tag_bg"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_month"
+            android:drawableTop="@drawable/rb_month_selector"
+            android:text="心情"
+            style="@style/bottom_tag_style"/>
+
+        <RadioButton
+            android:id="@+id/rb_help"
+            android:drawableTop="@drawable/rb_help_selector"
+            android:text="帮助"
+            style="@style/bottom_tag_style" />
+
+        <RadioButton
+            android:id="@+id/rb_opera"
+            android:drawableTop="@drawable/rb_opera_selector"
+            android:text="剧场"
+            style="@style/bottom_tag_style" />
+
+        <RadioButton
+            android:id="@+id/rb_comunite"
+            android:drawableTop="@drawable/rb_comunite_selector"
+            android:text="小社区"
+            style="@style/bottom_tag_style" />
+    </RadioGroup>
+
+</LinearLayout>
